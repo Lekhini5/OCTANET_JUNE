@@ -1,3 +1,4 @@
 # OCTANET_JUNE
 
-Check out TASK-1 Landing page: https://lekhini5.github.io/OCTANET_JUNE/TASK-1/
+#TASK-1: Basic Landing Page Creation
+Click here to visit landing page https://lekhini5.github.io/OCTANET_JUNE/TASK-1/
