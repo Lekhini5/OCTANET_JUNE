@@ -1,4 +1,4 @@
-# OCTANET_JUNE
+# OCTANET_JUNE_INTERNSHIP
 
 # TASK-1: Basic Landing Page Creation
 
