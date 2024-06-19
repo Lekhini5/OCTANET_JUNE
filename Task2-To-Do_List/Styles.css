@@ -181,7 +181,7 @@ ul li span.delete-button {
 }
 
 ul li span.delete-button:hover {
-    background: hsl(0, 97%, 59%);
+    background: hwb(0 9% 81% / 0.275);
 }
 
 @media (max-width: 768px) {
