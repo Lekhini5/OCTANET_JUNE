@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rich Cuisine</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Rich Cuisine</h1>
+        <div class="navbar">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">MENU</a></li>
+                <li><a class="reservation" href="#">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>Welcome to Rich Cuisine</h3>
+        <h1>Rich Healthy and Natural Food</h1>
+        <p>Rich Cuisine is a restaurant located that prides itself on delivering an exquisite dining experience.<br>
+            Our chefs use only the freshest ingredients to create dishes that will tantalize your taste buds.</p>
+    </div>
+
+    <div class="search">
+        <input type="text" placeholder="Search Food">
+    </div>
+
+    <div class="submit">
+        <a href="#">Submit</a>
+    </div>
+
+    <div class="specials">
+        <h1>Rich Cuisine <br> Today's Specials</h1>
+        <div class="specials-item">
+            <img src="salmon-roast-vegetables.jpg" alt="Grilled Salmon">
+            <h3>Grilled Salmon</h3>
+            <p>A delightful grilled salmon with a side of fresh vegetables.</p>
+        </div>
+        <div class="specials-item">
+            <img src="pizza.jpg" alt="pizza">
+            <h3>Chicken Naan Pizza</h3>
+            <p>Experience the rich flavors of butter chicken on a garlic naan crust with this pizza.</p>
+        </div>
+        <div class="specials-item">
+            <img src="pasta.jpg" alt="Vegetarian Pasta">
+            <h3>Vegetarian Pasta</h3>
+            <p>A healthy choice of pasta with mixed seasonal vegetables.</p>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="footerNav">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Our Team</a></li>
+            </ul>
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2024 Rich Cuisine. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script>
+        const menuIcon = document.querySelector('.menu-icon');
+        const navLinks = document.querySelector('.nav-links');
+        
+        menuIcon.addEventListener('click', () => {
+            navLinks.classList.toggle('mobile-menu');
+        });
+    </script>
+
+</body>
+</html>
+
 
